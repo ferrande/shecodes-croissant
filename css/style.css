@@ -1,0 +1,44 @@
+body {
+    background-color: #f8e8a6;
+    text-align: center;
+}
+.container {
+    margin: 0 auto;
+    max-width: 80%;
+    background-color: #fff1d6;
+    border-radius: 1rem;
+    box-shadow: 0 8px 8px -4px #efc275;
+    height: 80%;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+
+li {
+    margin: 1rem;
+}
+
+.nav-link {
+    text-decoration: none;
+    background-color: #F8BFA6;
+    color: rgb(40, 40, 40);
+    padding: 0.435rem;
+    border-radius: 0.435rem;
+}
+
+img {
+    max-width:50%;
+    border-radius: 2rem;
+}
+
+.contact-link {
+    text-decoration: none;
+    color: #ff9466;
+}
+
+.contact-link:hover {
+    color: #ff6e42;
+}
