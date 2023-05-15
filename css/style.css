@@ -3,12 +3,12 @@ body {
     text-align: center;
 }
 .container {
-    margin: 0 auto;
+    margin: 1rem auto;
+    padding: 1rem;
     max-width: 80%;
     background-color: #fff1d6;
     border-radius: 1rem;
-    box-shadow: 0 8px 8px -4px #efc275;
-    height: 80%;
+    box-shadow: 0 8px 8px -4px #e197476c;
 }
 
 ul {
@@ -23,10 +23,14 @@ li {
 
 .nav-link {
     text-decoration: none;
-    background-color: #F8BFA6;
-    color: rgb(40, 40, 40);
+    background-color: #F3AD61;
+    color: rgb(249, 249, 249);
     padding: 0.435rem;
     border-radius: 0.435rem;
+}
+
+.nav-link:hover {
+    background-color: #E19747;
 }
 
 img {
@@ -36,9 +40,9 @@ img {
 
 .contact-link {
     text-decoration: none;
-    color: #ff9466;
+    color: #F3AD61;
 }
 
 .contact-link:hover {
-    color: #ff6e42;
+    color: #E19747;
 }
